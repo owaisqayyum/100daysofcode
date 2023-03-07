@@ -10,4 +10,4 @@ days = remaining_age * 365
 weeks = remaining_age * 52
 months = remaining_age * 12
 
-print("You have " +  str(days) + " days, " + str(weeks) +  " weeks, and " + str(months) + " months left.")
+print(f"You have {days}, {weeks} weeks, and {months} months left.")
