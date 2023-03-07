@@ -16,3 +16,15 @@ print("Your name has " + new_num_char + " characters.")
 # math
 #** means power
 2 ** 2
+
+# rounding the values
+round(8/3, 2) # round the answer of 8/3 to 2 decimal places.
+# 2.67
+
+8 // 2 # flow condition, we get int straight away
+
+i = i + 1 # increment
+i += 1
+
+# f-string
+f"your score is {i}"
