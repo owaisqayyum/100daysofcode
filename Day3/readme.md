@@ -1,7 +1,15 @@
 # Day 3
 
-On day 2 i implemented the following small projects. 
+On day 3 i implemented the following small projects. 
 
-1. Life in Weeks 
-2. Body Mass Index (BMI Calculator)
-3. Tips Calculator 
+1. Treasure finder 
+2. Advanced BMI Calculator
+3. Love Calculator
+4. Pizza Order
+5. Leap Year
+6. Even or Odd number. 
+
+while implementing these projects i learnt about conditional 
+statements, nested conditional statements. if-elif statements, 
+conditional operators, conversion from uppercase to lower case and 
+counting number of times a char occured in a string. 
