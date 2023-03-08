@@ -1,0 +1,70 @@
+#+title: Notes - Day 3
+
+* If Else Statments
+
+#+BEGIN_SRC python
+ if condition:
+     :do_something
+else:
+    :do_something_else
+#+END_SRC
+
+** Example
+#+BEGIN_SRC python
+water_level = 80
+ if water_level >= 80:
+     print("Water Overflow")
+else:
+    print("Nothing")
+#+END_SRC
+
+** Operators
+- > greator than
+- < less than
+- >= greater than or equal to
+- <= less than or equal to
+- == equal to
+- != not equals to
+
+** Modulo
+in an even and odd example where you want to check
+if a number is odd or even then you can use the following code.
+
+#+BEGIN_SRC python
+if number % 2 == 0:
+    print("This is an even number.")
+else:
+    print("This is an odd number.")
+#+END_SRC
+
+* If Else nested Statments
+#+BEGIN_SRC python
+ if condition:
+     if condition:
+         :do_something
+    else:
+        :do_some_thing_else
+else:
+    :do_something_else
+#+END_SRC
+
+* Conversion to lower case
+In order to convert a string to lower case we can use the
+following function.
+
+#+BEGIN_SRC python
+    ("Hello World").lower()
+#+END_SRC
+
+* Counting number of char in a string
+To count number of characters in a string, simply use:
+
+#+BEGIN_SRC python
+name = "Owais Qayyum"
+
+name.count("y")
+> 2
+
+name.count("a")
+> 2
+#+END_SRC
